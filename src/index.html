@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
+  <script src="/scripts//toggle.js"></script>
 </head>
 <body>
     <nav class="relative container mx-auto p-6">
@@ -20,7 +21,19 @@
                 <a href="#"class="hover:text-darkGreyBlue">Community</a>
             </div>
             <a href="" class="hidden  p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">Get Started</a>
-            
+            <!--Sandwich Icon-->
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none" onClick="toggleMenu()">
+                <img src="/img/Hamburger_icon.svg.png" class="h-8 hover:bg-gray-300 rounded-full" alt="">
+            </button>
+        </div>
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex flex-col hidden items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                <a href="">Pricing</a>
+                <a href="">Products</a>
+                <a href="">About Us</a>
+                <a href="">Careers</a>
+                <a href="">Community</a>
+            </div>
         </div>
     </nav>
 
