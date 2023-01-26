@@ -557,6 +557,14 @@ video {
   right: 1.5rem;
 }
 
+.top-1\/4 {
+  top: 25%;
+}
+
+.right-0 {
+  right: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -614,6 +622,10 @@ video {
 
 .w-16 {
   width: 4rem;
+}
+
+.min-w-full {
+  min-width: 100%;
 }
 
 .max-w-md {
@@ -805,6 +817,14 @@ video {
   padding-top: 0.5rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -852,6 +872,11 @@ video {
   color: hsl(228 12% 60% / var(--tw-text-opacity));
 }
 
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
 .text-brightRed {
   --tw-text-opacity: 1;
   color: hsl(12 88% 60% / var(--tw-text-opacity));
@@ -889,6 +914,33 @@ body {
   #CTA {
     background-image:url('/img/bg-simplify-section-mobile.svg');
   }
+}
+
+.slides {
+  border:1px solid red;
+  scrollbar-width:none;
+}
+
+.slide {
+  content:""
+}
+
+.slides::-webkit-scrollbar {
+  width:0;
+  display:none;
+}
+
+.slides::-webkit-scrollbar-track {
+  background:transparent;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background:transparent;
+  border:none;
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 
 .hover\:bg-brightRedLight:hover {
@@ -1016,4 +1068,3 @@ body {
     line-height: 2.5rem;
   }
 }
-

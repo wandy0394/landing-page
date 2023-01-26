@@ -24,3 +24,22 @@ body {
     }
 }
 
+
+.slides {
+    border:1px solid red;
+    scrollbar-width:none;
+}
+.slide {
+    content:""
+}
+.slides::-webkit-scrollbar {
+    width:0;
+    display:none;
+}
+.slides::-webkit-scrollbar-track {
+    background:transparent;
+}
+.slides::-webkit-scrollbar-thumb {
+    background:transparent;
+    border:none;
+}
