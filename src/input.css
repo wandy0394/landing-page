@@ -26,7 +26,6 @@ body {
 
 
 .slides {
-    border:1px solid red;
     scrollbar-width:none;
 }
 .slide {

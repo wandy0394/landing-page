@@ -624,10 +624,6 @@ video {
   width: 4rem;
 }
 
-.min-w-full {
-  min-width: 100%;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
@@ -917,7 +913,6 @@ body {
 }
 
 .slides {
-  border:1px solid red;
   scrollbar-width:none;
 }
 
